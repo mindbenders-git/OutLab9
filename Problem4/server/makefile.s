@@ -18,7 +18,7 @@ ifeq ($(PORT_SERVER),)
 endif
 
 CC = gcc
-CFLAGS = -g -pthread -Wall
+CFLAGS = -g -pthread -Wextra
 
 varA = ./build/sv_task.o
 varB = ./build/sv_utils.o
